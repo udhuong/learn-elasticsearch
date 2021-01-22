@@ -107,7 +107,7 @@ Bước 1:\
 Pull docker image từ docker hub về:
 > docker pull docker.elastic.co/elasticsearch/elasticsearch:7.10.2
 
-Bước 2:\
+Bước 2:
 > docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.10.2
 
 * Với 2 bước đơn giản như trên là đã có thể cài đặt elasticsearch thành công!
